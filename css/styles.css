@@ -286,13 +286,13 @@ h2 {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
     color: var(--clr-link);
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-section {
     padding: 96px 0 120px 0;
