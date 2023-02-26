@@ -41,7 +41,7 @@ h2 {
 }
 .header {
     background: #fff;
-    /* border-bottom: 1px solid #E7E9FC; */
+    border-bottom: 1px solid #E7E9FC;
     padding: 23px 15px;
     display: flex;
     align-items: baseline;
@@ -136,6 +136,9 @@ h2 {
     display: block;
     margin: 0 auto;
     margin-top: 48px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .features-list {
     display: flex;
@@ -269,6 +272,7 @@ h2 {
 /* перевірити правильність у ментора */
 .current {
     position: relative;
+    color: var(--clr-link);
 }
 
 .address {
@@ -286,6 +290,9 @@ h2 {
 .address-link:hover,
 .address-link:focus {
     color: var(--clr-link);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-section {
     padding: 96px 0 120px 0;
